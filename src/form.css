@@ -1,0 +1,70 @@
+.formbox {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    /* Increase the padding for a larger form box */
+    width: 500px;
+    /* Increase the width of the form box */
+    text-align: center;
+}
+
+.formbox form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formbox label {
+    color: #007bff;
+    /* Blue color for labels */
+    font-size: 18px;
+    /* Larger font size for labels */
+    text-align: left;
+    /* Align labels to the left */
+    margin-bottom: 8px;
+    width: 100%;
+    /* Make labels full width */
+}
+
+.formbox input,
+.formbox select {
+    width: 100%;
+    /* Make input fields and select full width */
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.formbox select {
+    height: 40px;
+}
+
+.formbox button {
+    background-color: #007bff;
+    /* Blue color for the submit button */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    width: 100%;
+    /* Make the button full width */
+}
+
+.formbox button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.formbox .error {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}

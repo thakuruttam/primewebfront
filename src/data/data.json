@@ -1,0 +1,178 @@
+{
+    "Header": {
+        "title": "Unlock Your Web Potential",
+        "paragraph": "Crafting Digital Experiences for Succes. Your Vision, Our Expertise"
+    },
+    "About": {
+        "paragraph": "At Pixel Tek, we are passionate about crafting digital experiences that transform businesses and captivate audiences. With a relentless commitment to excellence, we have emerged as a leading service-based company specializing in website development. Our story is one of innovation, collaboration, and a deep-seated belief in the power of the web to drive growth and connect people.",
+        "Why": [
+            "Expertise",
+            "Customization",
+            "User-Centric Design",
+            "Support and Communication"
+        ],
+        "Why2": [
+            "Transparency and Accountability",
+            "Innovative Solutions",
+            "Proven Track Record",
+            "Client-Centric Approach"
+        ]
+    },
+    "Gallery": [{
+            "title": "Enhancing Medical Services: How Internet and IoMT are Shaping Healthcare Enhancing Medical Services",
+            "text": "The Internet of Medical Things (IoMT) is transforming patient care in healthcare facilities, enabling online appointment scheduling, remote consultations, and reducing waiting times. The technology is central to healthcare devices designed for the industry.",
+            "image": "img/portfolio/02-large.jpg",
+            "link": "https://economictimes.indiatimes.com/jobs/mid-career/enhancing-medical-services-how-internet-and-iomt-are-shaping-healthcare/articleshow/102836560.cms"
+
+        },
+        {
+            "title": "Empowering Futures: Unlocking Creativity through Web Design & Marketing Training",
+            "text": "A special course at TGC called WEB PRO covers web design, web development, and internet marketing. This unique offering stands out because it is perhaps the only course—not just at TGC, but maybe elsewhere—that, following enrollment and the signature of a placement letter, provides a formal guarantee of employment",
+            "image": "img/portfolio/08-large.jpg",
+            "link": "https://economictimes.indiatimes.com/jobs/c-suite/empowering-futures-unlocking-creativity-through-web-design-marketing-training/articleshow/102777369.cms"
+
+        },
+
+        {
+            "title": "Assam CM Himanta Biswa Sarma launches ‘Amrit Brikshya Andolan’ app to enrich Assam’s beauty",
+            "text": "Sarma, referring to the launch of the Amrit Brikshya Andolan web portal/mobile app as a first step towards the target of 1-crore sapling plantation on September 17, said Amrit Brikshya Andolan would provide a major boost to the State's green economy.",
+            "image": "img/portfolio/06-large.jpg",
+            "link": "https://economictimes.indiatimes.com/news/india/assam-cm-himanta-biswa-sarma-launches-amrit-brikshya-andolan-app-to-enrich-assams-beauty/articleshow/102356833.cms"
+
+        },
+        {
+            "title": "MeitY launches Indian Web Browser Development Challenge",
+            "text": "The programme saw participation from more than 200 participants from government departments, industry, startups and academia through online and offline modes.",
+            "image": "img/portfolio/07-large.jpg",
+            "link": "https://economictimes.indiatimes.com/tech/technology/meity-launches-indian-web-browser-development-challenge/articleshow/102581774.cms"
+
+        },
+        {
+            "title": "DGT partners with Amazon Web Services to upskill students on new technologies",
+            "text": "AWS India, a subsidiary of Amazon that provides scalable and affordable cloud computing solutions, will offer free self-paced online learning programs on emerging technologies.",
+            "image": "img/portfolio/05-large.jpg",
+            "link": "https://economictimes.indiatimes.com/tech/technology/dgt-partners-with-amazon-web-services-to-upskill-students-on-new-technologies/articleshow/102314922.cms"
+
+        },
+        {
+            "title": "AWS, Accel announce programme to support generative AI startups",
+            "text": "ML Elevate will provide generative AI startups access to AI models and tools, business and technical mentorship, curated resources, the AWS Activate programme, and up to $200,000 in AWS Credits..",
+            "image": "img/portfolio/04-large.jpg",
+            "link": "https://economictimes.indiatimes.com/tech/technology/aws-accel-announce-programme-to-support-generative-ai-startups/articleshow/102284478.cms"
+
+        }
+    ],
+    "Services": [{
+            "icon": "fa fa-wordpress",
+            "name": "Website Design and Development",
+            "text": "Our core service offering encompasses the design and development of visually appealing, user-friendly websites. Whether you need a new website from scratch or wish to revamp an existing one, our expert team creates responsive and customized solutions that align with your brand and business objectives."
+        },
+        {
+            "icon": "fa fa-cart-arrow-down",
+            "name": "E-Commerce Solutions",
+            "text": "We specialize in building robust e-commerce platforms that enable online businesses to thrive. Our e-commerce solutions include secure payment gateways, inventory management, and a seamless shopping experience for your customers, driving sales and growth."
+        },
+        {
+            "icon": "fa fa-cloud-download",
+            "name": "Content Management Systems (CMS)",
+            "text": "We provide comprehensive content management solutions, empowering you to effortlessly update and manage your website content. Our expertise with popular CMS platforms ensures that you can keep your website fresh and engaging without technical hurdles."
+        },
+        {
+            "icon": "fa fa-language",
+            "name": "Website Maintenance and Support",
+            "text": "Your website's journey doesn't end with its launch. We offer ongoing maintenance and support services to keep your website secure, up-to-date, and running smoothly. From regular updates to troubleshooting, we've got you covered."
+        },
+        {
+            "icon": "fa fa-plane",
+            "name": "Digital Strategy and Consultation",
+            "text": "Beyond development, we provide strategic guidance to help you navigate the digital landscape effectively. Our experts offer consultation services to devise digital strategies that align with your business goals, ensuring a strong online presence and continued growth."
+        },
+        {
+            "icon": "fa fa-pie-chart",
+            "name": "Search Engine Optimization (SEO)",
+            "text": "Enhancing online visibility is crucial, and our SEO services are designed to do just that. We optimize websites to rank higher on search engines, improve organic traffic, and increase your online presence, helping you reach a wider audience"
+        }
+    ],
+    "Testimonials": [{
+            "img": "img/testimonials/01.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/02.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/03.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/04.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/05.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/06.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        }
+    ],
+    "Team": [{
+            "img": "img/team/01.jpg",
+            "name": "Satyam Singh",
+            "job": "Director"
+        },
+        {
+            "img": "img/team/02.jpeg",
+            "name": "Sunny Ranjan",
+            "job": "Senior Designer"
+        },
+        {
+            "img": "img/team/03.jpg",
+            "name": "Uttam Singh",
+            "job": "Senior Designer"
+        },
+        {
+            "img": "img/team/04.jpg",
+            "name": "Vaibhav Shukla",
+            "job": "Project Manager"
+        }
+    ],
+    "Contact": {
+        "address": "4321 California St, San Francisco, CA 12345 ",
+        "phone": "+1 123 456 1234",
+        "email": "info@company.com",
+        "facebook": "fb.com",
+        "twitter": "twitter.com",
+        "youtube": "youtube.com"
+    },
+    "Features": [{
+            "icon": "fa fa-bullhorn",
+            "title": "SEO Optimization",
+            "text": "Our website development services include search engine optimization (SEO) techniques to enhance visibility on popular search engines."
+        },
+
+        {
+            "icon": "fa fa-comments-o",
+            "title": "Communication and Support",
+            "text": "Timely Assistance: We pride ourselves on excellent customer communication and support throughout the website development process and beyond."
+        },
+        {
+            "icon": "fa fa-magic",
+            "title": " Customized Website Development",
+            "text": "Tailored Solutions: Our service-based company specializes in creating websites that are customized to meet the unique needs and objectives of each client."
+        },
+        {
+            "icon": "fa fa-group",
+            "title": "Content Management Systems (CMS):",
+            "text": "Easy Content Updates: We offer websites built on robust CMS platforms, empowering our clients to manage and update their content effortlessly."
+        }
+    ]
+}

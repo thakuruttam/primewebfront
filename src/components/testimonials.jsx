@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import React, { useState } from "react";
 import "../form.css";
 import axios from "axios";
 
@@ -13,16 +13,14 @@ export const Testimonials = (props) => {
 
   const [isLoading, setIsLoading] = useState(false);
   const [errors, setErrors] = useState({});
-  const [label, setlabel] = useState("Submit");
+  const [label, setLabel] = useState("Submit");
 
   const validateEmail = (email) => {
-    // Simple email validation using a regular expression
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regex.test(email);
   };
 
   const validatePhone = (phone) => {
-    // Simple phone number validation using a regular expression
     const regex = /^\d{10}$/;
     return regex.test(phone);
   };
@@ -46,30 +44,43 @@ export const Testimonials = (props) => {
     }
 
     if (!degree) {
-      newErrors.degree = "Field is required";
+      newErrors.degree = "Degree is required";
     }
+
     if (!message) {
-      newErrors.degree = "Field is required";
+      newErrors.message = "Cover Letter is required";
     }
 
     if (Object.keys(newErrors).length === 0) {
       setIsLoading(true);
 
-      console.log("53", phone, email, name, degree);
-      let apidata = await axios.post("https://primeweb.onrender.com/user", {
-        phonenumber: phone,
-        email: email,
-        name: name,
-        degree: degree,
-        message: message,
-      });
-      console.log(apidata);
-      if (apidata.data) {
-        setlabel("Submitted form");
-        setIsLoading(false);
-      } else {
-        setlabel("failed");
-      }
+      setTimeout(async () => {
+        try {
+          const apidata = await axios.post(
+            "https://primeweb.onrender.com/user",
+            {
+              phonenumber: phone,
+              email: email,
+              name: name,
+              degree: degree,
+              message: message,
+            }
+          );
+
+          console.log(apidata);
+
+          if (apidata.data.phonenumber) {
+            setLabel("Submitted form");
+          } else {
+            setLabel("Already submitted");
+          }
+        } catch (error) {
+          console.error("Error submitting form:", error);
+          setLabel("Failed");
+        } finally {
+          setIsLoading(false);
+        }
+      }, 2000);
     } else {
       setErrors(newErrors);
     }
@@ -91,11 +102,11 @@ export const Testimonials = (props) => {
             <div className="section-title">
               <h2>Apply for Internship</h2>
               <p>
-                Please fill out the form below to send us an email and we will
+                Please fill out the form below to send us an email, and we will
                 get back to you as soon as possible.
               </p>
             </div>
-            <form name="sentMessage" validate onSubmit={handleSubmit}>
+            <form name="sentMessage" onSubmit={handleSubmit}>
               <div className="row">
                 <div className="col-md-6">
                   <div className="form-group">
@@ -108,7 +119,7 @@ export const Testimonials = (props) => {
                       required
                       onChange={handleChange}
                     />
-                    <p className="help-block text-danger"></p>
+                    <p className="help-block text-danger">{errors.name}</p>
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -122,13 +133,13 @@ export const Testimonials = (props) => {
                       required
                       onChange={handleChange}
                     />
-                    <p className="help-block text-danger"></p>
+                    <p className="help-block text-danger">{errors.email}</p>
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="form-group">
                     <input
-                      type="phone"
+                      type="text"
                       id="phone"
                       name="phone"
                       className="form-control"
@@ -136,7 +147,7 @@ export const Testimonials = (props) => {
                       required
                       onChange={handleChange}
                     />
-                    <p className="help-block text-danger"></p>
+                    <p className="help-block text-danger">{errors.phone}</p>
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -150,7 +161,7 @@ export const Testimonials = (props) => {
                       required
                       onChange={handleChange}
                     />
-                    <p className="help-block text-danger"></p>
+                    <p className="help-block text-danger">{errors.degree}</p>
                   </div>
                 </div>
               </div>
@@ -164,17 +175,15 @@ export const Testimonials = (props) => {
                   required
                   onChange={handleChange}
                 ></textarea>
-                <p className="help-block text-danger"></p>
+                <p className="help-block text-danger">{errors.message}</p>
               </div>
               <div id="success"></div>
               <button
                 type="submit"
                 className="btn btn-custom btn-lg"
-                onClick={(e) => {
-                  handleSubmit(e);
-                }}
+                disabled={isLoading}
               >
-                {label}
+                {isLoading ? "Submitting..." : label}
               </button>
             </form>
           </div>

@@ -56,7 +56,7 @@ export const Testimonials = (props) => {
       setIsLoading(true);
 
       console.log("53", phone, email, name, degree);
-      let apidata = await axios.post("http://localhost:8000/user/", {
+      let apidata = await axios.post("https://primeweb.onrender.com/", {
         phonenumber: phone,
         email: email,
         name: name,

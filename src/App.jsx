@@ -11,7 +11,10 @@ import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+import REACTGA from "react-ga";
 
+const tracking_id = "UA-260659439-1";
+REACTGA.initialize(tracking_id);
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,

@@ -102,8 +102,10 @@ export const Testimonials = (props) => {
             <div className="section-title">
               <h2>Apply for Internship</h2>
               <p>
-                Please fill out the form below to send us an email, and we will
-                get back to you as soon as possible.
+                Please fill out the form below or mail us at{" "}
+                <a href="mailto:theprimeweb@hotmail.com">
+                  theprimeweb@hotmail.com
+                </a>
               </p>
             </div>
             <form name="sentMessage" onSubmit={handleSubmit}>

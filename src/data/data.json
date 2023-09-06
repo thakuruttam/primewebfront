@@ -4,7 +4,7 @@
         "paragraph": "Crafting Digital Experiences for Succes. Your Vision, Our Expertise"
     },
     "About": {
-        "paragraph": "At Pixel Tek, we are passionate about crafting digital experiences that transform businesses and captivate audiences. With a relentless commitment to excellence, we have emerged as a leading service-based company specializing in website development. Our story is one of innovation, collaboration, and a deep-seated belief in the power of the web to drive growth and connect people.",
+        "paragraph": "At The Prime Web, we are passionate about crafting digital experiences that transform businesses and captivate audiences. With a relentless commitment to excellence, we have emerged as a leading service-based company specializing in website development. Our story is one of innovation, collaboration, and a deep-seated belief in the power of the web to drive growth and connect people.",
         "Why": [
             "Expertise",
             "Customization",
@@ -127,28 +127,34 @@
     "Team": [{
             "img": "img/team/01.jpg",
             "name": "Satyam Singh",
-            "job": "Director"
+            "job": "Team Lead",
+            "link": "https://www.linkedin.com/in/thakursatyam9415/"
         },
         {
             "img": "img/team/02.jpeg",
             "name": "Sunny Ranjan",
-            "job": "Senior Designer"
+            "job": "Full stack Developer",
+            "link": "https://www.linkedin.com/in/sanny-ranjan-singh-065534237/"
         },
         {
             "img": "img/team/03.jpg",
             "name": "Uttam Singh",
-            "job": "Senior Designer"
+            "job": " Senior Full stack Developer",
+            "link": "https://www.linkedin.com/in/thakuruttam/"
+
         },
         {
             "img": "img/team/04.jpg",
-            "name": "Vaibhav Shukla",
-            "job": "Project Manager"
+            "name": "Saurabh Yadav ",
+            "job": "Digital Marketing Head",
+            "link": "https://www.linkedin.com/in/saurabh-yadav-5a8a3b198/"
+
         }
     ],
     "Contact": {
         "address": "4321 California St, San Francisco, CA 12345 ",
         "phone": "+1 123 456 1234",
-        "email": "info@company.com",
+        "email": "theprimeweb@hotmail.com",
         "facebook": "fb.com",
         "twitter": "twitter.com",
         "youtube": "youtube.com"
